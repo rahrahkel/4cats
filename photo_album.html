@@ -1,0 +1,113 @@
+
+<html>
+    <head>
+        <title>The Gropp Gang - Photo Album</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #ff9191;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .main-container {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            header {
+                background-color: #252525;
+                color: #fff;
+                padding: 20px 0;
+                border-radius: 8px;
+                text-align: center;
+                margin: 10px;
+                width: 78%;
+            }
+            
+            footer {
+                background-color: #252525;
+                color: #fff;
+                padding: 20px 0;
+                border-radius: 8px;
+                text-align: center;
+                margin: 10px;
+                width: 78%;
+            }
+
+            header h1 {
+                margin: 15px;
+                padding: 15px;
+                font-size: 32px;
+            }
+
+            nav {
+                text-align: center;
+                font-size: 16px;
+                margin-top: 10px;
+            }
+
+            nav a {
+                color: #ff80c0;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+            
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                width: 100%;
+            }
+            
+            .photo-album-section {
+                margin: 20px;
+                width: 77%;
+                align-items: center;
+                text-align: center;
+                border: 2px solid #000000;
+                border-radius: 8px;
+                padding: 10px;
+                background-color: #fdfdfd;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            .cat-name-header {
+                font-size: 24px;
+                font-weight: bold;
+                text-align: center;
+                margin-top: 10px;
+                background-color: #efefef;
+                padding: 10px;
+                border-radius: 8px;
+            }
+
+            .photo {
+                margin: 10px;
+                align-items: center;
+                width: 250px;
+                border: 3px solid #aaa;
+                border-radius: 8px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <header>
+                <h1>The Gropp Gang</h1>
+                <nav>
+                    <a href="index.html">Home</a> | <a href="photo_album.html">Photo Album</a> | <a href="#">Mommies' Page</a> | <a href="#">Don't Contact Us</a>
+                </nav>
+            </header>
+            <div class="container">
+                <div class='photo-album-section'><h2 class='cat-name-header'>Hoover</h2><img class='photo' src='images/h1.jpg' alt='Hoover'><img class='photo' src='images/h2.jpg' alt='Hoover'><img class='photo' src='images/h3.jpg' alt='Hoover'><img class='photo' src='images/h4.jpg' alt='Hoover'></div><div class='photo-album-section'><h2 class='cat-name-header'>Oli</h2><img class='photo' src='images/o1.jpg' alt='Oli'><img class='photo' src='images/o2.jpg' alt='Oli'><img class='photo' src='images/o3.jpg' alt='Oli'><img class='photo' src='images/o4.jpg' alt='Oli'></div><div class='photo-album-section'><h2 class='cat-name-header'>Panda</h2><img class='photo' src='images/p1.jpg' alt='Panda'><img class='photo' src='images/p2.jpg' alt='Panda'><img class='photo' src='images/p3.jpg' alt='Panda'></div><div class='photo-album-section'><h2 class='cat-name-header'>Roomba</h2><img class='photo' src='images/r1.jpg' alt='Roomba'><img class='photo' src='images/r2.jpg' alt='Roomba'><img class='photo' src='images/r3.jpg' alt='Roomba'><img class='photo' src='images/r4.jpg' alt='Roomba'></div>
+            </div>
+            <footer>&copy; 2023 Gropp Gang. All Rights Reserved.</footer>
+        </div>
+    </body>
+</html>
